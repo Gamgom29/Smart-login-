@@ -40,7 +40,7 @@ function signin(){
         }
         if(check){
             signmsg.classList.add('d-none');
-            window.open('../signup.html','_self')
+            window.open('userpage.html','_self')
         }
         else {
             signmsg.classList.remove('d-none');
